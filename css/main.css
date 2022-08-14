@@ -1,3 +1,10 @@
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritance from `body` */
+}
+
 .form-control-dark {
     border-color: var(--bs-gray);
 }
@@ -14,6 +21,7 @@
 .dropdown-toggle {
     outline: 0;
 }
+
 .bd-placeholder-img {
     font-size: 1.125rem;
     text-anchor: middle;
@@ -51,6 +59,55 @@
     -webkit-overflow-scrolling: touch;
 }
 
-.container > header {
-    background: url(/Users/manonfurst/Documents/Earth/Website/img/FarmTours_Logo_SML.png) no-repeat !important;
+.site-title {
+    background: url("C:/Users/earth/Desktop/Reapeat/WebPublishing/img/FarmTours_Logo_SML.png") no-repeat !important;
+}
+
+.front-page {
+    background: url("C:/Users/earth/Desktop/Reapeat/WebPublishing/img/home-page-cover.jpg") no-repeat !important;
+}
+
+.map-container{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+
+.map-container iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+.figure-img {
+    overflow: hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+
+.figure-img img {
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+.iframe-container {
+    overflow: hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+
+.iframe-container iframe {
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
 }
