@@ -51,6 +51,6 @@
     -webkit-overflow-scrolling: touch;
 }
 
-.container header {
-    background: url("C:/Users/earth/Desktop/Reapeat/WebPublishing/img/FarmTours_Logo_SML.png") no-repeat !important;
+.container > header {
+    background: url(/Users/manonfurst/Documents/Earth/Website/img/FarmTours_Logo_SML.png) no-repeat !important;
 }
